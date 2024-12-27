@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>purchase-form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="container1">
+        <form id="input">
+            <h1>Form</h1>
+            <input type="text" id="title" placeholder="title">
+            <br>
+            <input type="number" id="price" placeholder="price">
+            <br>
+            <input type="text" id="image" placeholder="image">
+            <br>
+            <input type="text" id="category" placeholder="category">  
+        </form>
+
+        <div id="filter">
+            <h1>Filter</h1>
+            <input type="text" id="Ftitle" placeholder="title">
+            <br>
+            <select type="text" id="Fprice" placeholder="price">
+                <option value="high">high to low</option>
+                <option value="low">low to high</option>
+            </select>
+            <br>
+            <select type="text" id="Fcategory" placeholder="category">
+                <option value="shoes">shoes</option>
+                <option value="clothes">clothes</option>
+                <option value="watches">watches</option>
+            </select>
+        </div>
+        <button id="search">Search</button>
+    </div>
+
+    
+    <div id="container2">
+        <div id="card">
+            <h2 id="newTitle"></h2>
+            <p id="newPrice"></p>
+            <img src="" alt="" id="newImage">
+            <p id="newCategory"></p>
+        </div>
+
+        <div id="card">
+            <h2 id="newTitle"></h2>
+            <p id="newPrice"></p>
+            <img src="" alt="" id="newImage">
+            <p id="newCategory"></p>
+        </div>
+
+        <div id="card">
+            <h2 id="newTitle"></h2>
+            <p id="newPrice"></p>
+            <img src="" alt="" id="newImage">
+            <p id="newCategory"></p>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
